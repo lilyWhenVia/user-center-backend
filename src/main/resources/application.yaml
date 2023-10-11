@@ -3,8 +3,8 @@ spring:
       name: user-center
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: LWY-0212lwy
+    username: self
+    password: 123456
     url: jdbc:mysql://localhost:3306/user_center?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
 mybatis-plus:
   configuration:
