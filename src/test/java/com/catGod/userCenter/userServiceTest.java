@@ -20,7 +20,7 @@ public class userServiceTest {
         String username = "lilyWhen";
         String password = "12345678";
         String checkPassword = "12345678";
-        assert userService.userRegister(username, password, checkPassword)!=-1;
+        assert userService.userRegister(username, password, checkPassword)==-1;
         // 用戶名不合法
         username = "li";
         assert userService.userRegister(username, password, checkPassword)==-1;
